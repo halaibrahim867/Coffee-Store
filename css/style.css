@@ -7,11 +7,13 @@ body{
     font-family: 'Poppins', sans-serif;
 
 }
+.container .nav-and-landing{
+    background: #F7EBDA;;
+}
 .container .nav {
     display:  flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
-    padding-inline-start: 135px;
 }
 .container .nav .cup{
     width: 50px;
@@ -21,7 +23,10 @@ body{
 }
 .container .links-search{
     display: flex;
-    
+    align-items:center;
+}
+.container .links-search .nav-links{
+    margin-inline-end: 110px;
 }
 .container .links-search .nav-links a{
     text-decoration: none;
@@ -32,5 +37,23 @@ body{
 }
 .container .links-search .nav-links a:first-of-type{
     color: var(--main-color);
-    
+}
+
+.container .links-search .search-box{
+    width: 222px;
+    height: 40px;
+    background: #FFFFFF;
+    border-radius: 35px;
+    display: flex;
+    align-items: center;
+}
+.container .links-search .search-box img{
+   margin-inline-start: 12px;
+}
+.container .links-search .search-box span{
+    opacity: .5;
+    margin-inline-start: 15px;
+}
+.container .links-search .shopping-cart-icon{
+    margin-inline-start: 30px;
 }
