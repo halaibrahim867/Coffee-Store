@@ -57,3 +57,10 @@ body{
 .container .links-search .shopping-cart-icon{
     margin-inline-start: 30px;
 }
+.container .landing{
+    display: flex;
+}
+.container .landing .background-image img{
+    width: 526.71px;
+    height: 416px;
+}
