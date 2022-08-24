@@ -157,7 +157,7 @@ body{
     }
     
 }
-.container .products-section h2{
+.container .products-section .subhead{
     margin-block-start: 95px; 
     margin-block-end: 105px ;
     margin-inline-start: 128px;
@@ -165,12 +165,16 @@ body{
     font-size: 32px;
     line-height: 48px;
     color:var(--second-color);
+    position: relative;
 }
 .container .products-section .underline{
     width: 74px;
     height: 4px;
     background: var(--main-color);
     border-radius: 12px;
+    position: absolute;
+    bottom: 0px;
+    left: 130px;
 }
 .container  .products-section .products{
     display: flex;
