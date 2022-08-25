@@ -456,3 +456,92 @@ body {
     cursor: pointer;
     border: none;
 }
+.container .menu-container{
+    margin-block-start: 120px;
+}
+.container .menu-container .subhead{
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+    color: #000000;
+    position: relative;
+    margin-inline-start: 127px;
+}
+.container .menu-container .underline{
+    width: 115px;
+    height: 4px;
+    background: var(--main-color);
+    border-radius: 12px;
+    position: absolute;
+    bottom: 0px;
+    left: 230px;
+}
+.container .Menu{
+    display: grid;
+    grid-template-columns: repeat(3,343px);
+    grid-template-rows: repeat(2,373px);
+    gap: 40px;
+    justify-content: center;
+} 
+.container .Menu .dish{
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.7) 100%);
+    backdrop-filter: blur(4px);
+    width: 356px;
+    height: 385px;
+    border-radius: 12px;
+}
+.container .Menu .border {
+    position: relative;
+    background: #FFFFFF;
+    border-radius: 12px;
+    width: 343.97px;
+    height: 373px;
+    margin: auto;
+
+}
+.container .Menu .border .dish-image{
+    margin: 19px 9px 0px 9px;
+}
+.container .Menu .border .rate-icon{
+    position: absolute;
+    top: 26px;
+    left: 16px;
+}
+.container .Menu .border .info-name {
+    display: flex;
+    justify-content: space-between;
+    margin-inline: 30px;
+    letter-spacing: 0.04em;
+    line-height: 36px;
+    height: 36px;
+    margin-block: 15px;
+    align-items: center;
+    font-size: 24px;
+    color: #2F2105;;
+}
+
+.container .Menu .border .info-name .name {
+    font-weight: 600;
+
+}
+
+.container .Menu .border .info-name .qun {
+    font-weight: 700;
+}
+
+.container .Menu .border .info-type {
+    display: flex;
+    justify-content: space-between;
+    margin-inline: 30px;
+    align-items: center;
+}
+
+.container .Menu .border .info-type .type {
+    display: flex;
+    font-weight: 600;
+    justify-content: space-between;
+    font-size: 14px;
+    width: 150px;
+    line-height: 21px;
+    color:  #7E7D7A;;
+}
