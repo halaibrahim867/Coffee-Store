@@ -570,3 +570,100 @@ body {
     line-height: 21px;
     color:  #7E7D7A;;
 }
+
+.container .feedback{
+    display: flex;
+    margin-block-start: 120px;
+    
+}
+.container .feedback .head-and-des{
+    background: url(../images/Exclude.png),  #F7EBDA  ;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+    width: 945px;
+    height: 484px;
+   
+} 
+@media (max-width:772px) {
+    .container .feedback{
+        display: block;
+    }
+    .container .feedback .head-and-des{
+        background-size: cover;
+        
+    }
+    
+}
+.container .feedback .head-and-des .heading{
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+    margin-block-start: 170px;
+    margin-inline-start: 85px;
+    width: 414px;
+    letter-spacing: 0.04em;
+ 
+}
+.container .feedback .head-and-des .description{
+    font-weight: 400;
+    font-size: 18px;
+    width: 352px;
+    line-height: 27px;
+    margin-inline-start: 85px;
+    color: #7E7D7A;
+}
+.container .feedback .people-feedback{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    width: 852px;
+    margin-inline-start: -380px;
+    gap: 55px;
+    overflow: hidden;
+}
+@media (max-width:772px){
+    .container .feedback .people-feedback{
+        display: block;
+        margin-block-start: 30px;
+        margin-inline-start: 0px;
+        text-align: center;
+    }
+    
+}
+.container .feedback .people-feedback .person{
+    position: relative;
+}
+.container .feedback .people-feedback .msg-feedback{
+    position: absolute;
+    bottom: 32px;
+    right: -35px;
+    width: 206.5px;
+    height: 86.23px;
+    background: #FFCB7C;
+    border: 6px solid rgba(255, 211, 145, 0.62);
+    border-radius: 8px;
+    color: #2F2105;
+
+}
+@media (max-width:772px){
+    .container .feedback .people-feedback .msg-feedback{
+        left:20px;
+    }
+    
+}
+.container .feedback .people-feedback .msg-feedback .name{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    margin-inline-start: 12px;
+    margin-block: 8px 0px;
+
+}
+
+.container .feedback .people-feedback .msg-feedback .msg{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    margin-block: auto;
+    margin-inline-start: 12px;
+} 
