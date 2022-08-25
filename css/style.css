@@ -486,23 +486,27 @@ body {
         width: 95px;
     }
 }
-.container .Menu{
-    display: grid;
-    grid-template-columns: repeat(3,343px);
-    grid-template-rows: repeat(2,373px);
-    gap: 40px;
-    justify-content: center;
-} 
-@media (max-width:772px){
+
+    .container .Menu{
+        display: grid;
+        grid-template-columns: repeat(3,343px);
+        grid-template-rows: repeat(2,373px);
+        gap: 40px;
+        justify-content: center;
+    } 
+
+@media (max-width:771px){
     .container .Menu{
         grid-template-columns: repeat(1,320px);
-        gap: 25px;
+        grid-template-rows: repeat(6,385px);
+        
     }
     
 }
-@media (max-width:992px){
+@media (min-width:772px) and (max-width:991px){
     .container .Menu{
         grid-template-columns: repeat(2,320px);
+        grid-template-rows: repeat(3,385px);
         gap: 30px;
     }
     
@@ -584,16 +588,7 @@ body {
     height: 484px;
    
 } 
-@media (max-width:772px) {
-    .container .feedback{
-        display: block;
-    }
-    .container .feedback .head-and-des{
-        background-size: cover;
-        
-    }
-    
-}
+
 .container .feedback .head-and-des .heading{
     font-weight: 600;
     font-size: 32px;
@@ -612,6 +607,26 @@ body {
     margin-inline-start: 85px;
     color: #7E7D7A;
 }
+@media (max-width:772px) {
+    .container .feedback{
+        display: block;
+    }
+    .container .feedback .head-and-des{
+        width:100%;
+        height: 250px;
+        
+    }
+    .container .feedback .head-and-des .heading
+   {
+        margin-inline-start: 10px;
+        font-size: 26px;
+    }
+    .container .feedback .head-and-des .description{
+        font-size: 16px;
+        margin-inline-start: 10px;
+    }
+    
+}
 .container .feedback .people-feedback{
     align-items: center;
     display: flex;
@@ -626,7 +641,7 @@ body {
         display: block;
         margin-block-start: 30px;
         margin-inline-start: 0px;
-        text-align: center;
+        
     }
     
 }
@@ -647,7 +662,7 @@ body {
 }
 @media (max-width:772px){
     .container .feedback .people-feedback .msg-feedback{
-        left:20px;
+        left:80px;
     }
     
 }
