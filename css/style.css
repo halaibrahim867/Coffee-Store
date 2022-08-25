@@ -404,6 +404,18 @@ body {
     justify-content: center;
     align-items: center;
 }
+@media (max-width:772px) {
+    .container .about-us {
+        flex-direction: column-reverse;
+
+    }
+    .container .about-us .border{
+        flex-direction: column;
+    }
+    .container .about-us .border{
+        margin-block-start: 50px;
+    }
+}
 .container .about-us .content-about{
     width:370px
 }
