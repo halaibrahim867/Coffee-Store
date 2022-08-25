@@ -173,7 +173,7 @@ body{
     background: var(--main-color);
     border-radius: 12px;
     position: absolute;
-    bottom: 0px;
+     bottom: 0px;
     left: 130px;
 }
 .container  .products-section .products{
@@ -267,3 +267,47 @@ body{
     border-radius: 8px;
     text-align: center;  
 }
+.container .delivery-service{
+    margin-inline: 135px;
+    letter-spacing: .04em;
+}
+.container .delivery-service .subhead{
+    color:var(--second-color);
+    position: relative;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+    
+    margin-block-start: 120px;
+}
+.container .delivery-service .underline{
+    width: 120px;
+    height: 4px;
+    background: var(--main-color);
+    border-radius: 12px;
+    position: absolute;
+    bottom: 0px;
+    left: 350px;
+}
+.container .steps{
+    display: grid;
+    grid-template-columns: repeat(3,370px);
+    text-align: center;
+    gap:15px;
+}
+.container .delivery-service .steps .tap-image{
+    margin-inline-start: -65px;
+    margin-block-end: -22px;
+}
+.container .delivery-service .step .order{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: var(--second-color);
+}
+.container .delivery-service .step .des-order{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #00000;
+ }
