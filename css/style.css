@@ -383,3 +383,64 @@ body {
     line-height: 27px;
     color: #2F2105;
 }
+.container .about-us{
+    background: url(../images/Exclude.png),  #F7EBDA  ;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+    background-size: cover;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-block-start: 200px;
+   
+}
+.container .about-us .border{
+    width: 370.21px;
+    height: 509.22px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0.4) 100%);
+    border-radius: 12px;
+    margin-block-start: -82.2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container .about-us .content-about{
+    width:370px
+}
+.container .about-us .content-about .subhead{
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+    color: var(--second-color);
+    position: relative;
+}
+.container .about-us .content-about .underline{
+    width: 40px;
+    height: 4px;
+    background: var(--main-color);
+    border-radius: 12px;
+    position: absolute;
+    bottom: 0px;
+    left: 103px;
+}
+.container .about-us .content-about .description{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #000000;
+}
+.container .about-us .content-about .sub-description{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #7E7D7A;
+}
+.container .about-us .content-about input[type=button]{
+    width: 142px;
+    height: 38px;
+    background: #2F2105;
+    border-radius: 33px;
+    color: #F4AE26;
+    cursor: pointer;
+    border: none;
+}
