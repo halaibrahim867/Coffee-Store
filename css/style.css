@@ -738,6 +738,15 @@ body {
 
 }
 
+@media (max-width:772px) {
+    .container .newsletter {
+        background-size: cover;
+        text-align: center;
+
+    }
+
+}
+
 .container .newsletter .heading {
     letter-spacing: 0.04em;
     font-weight: 600;
@@ -745,6 +754,14 @@ body {
     line-height: 48px;
     text-align: center;
     color: #FFFFFF;
+
+}
+
+@media (max-width:772px) {
+    .container .newsletter .heading {
+        font-size: 26px;
+        width: fit-content;
+    }
 
 }
 
@@ -770,4 +787,11 @@ body {
     border: none;
     margin-inline-start: -140px;
     color: #FFFFFF;
+}
+
+@media (max-width:772px) {
+    .container .newsletter input[type=email] {
+        width: 250px;
+    }
+
 }
