@@ -1,3 +1,3 @@
 # Coffee-Store
 **This is a website about coffee store to order your favorite coffee at any time.**
-![Coffee Store](<img src="https://www.figma.com/file/6zj1ndu57QU9XOyecqxfjb/Cafe-Street---E-Commerce-Landing-Page?node-id=212%3A196" alt="Coffee Store">)
+(![file cover - 1](https://user-images.githubusercontent.com/99662004/187041479-b18d5074-fc63-47eb-b92a-e863a5f700f6.png))
