@@ -674,12 +674,22 @@ body {
     overflow: hidden;
 }
 
-@media (max-width:772px) {
+@media (max-width:771px) {
     .container .feedback .people-feedback {
         display: block;
         margin-block-start: 30px;
         margin-inline-start: 0px;
 
+    }
+}
+
+@media (min-width:772px)and (max-width:1024px) {
+    .container .feedback {
+        display: block;
+    }
+
+    .container .feedback .people-feedback {
+        margin-inline-start: 135px;
     }
 
 }
@@ -763,6 +773,10 @@ body {
         width: fit-content;
     }
 
+}
+
+.container .newsletter form {
+    text-align: center;
 }
 
 .container .newsletter input[type=email] {
