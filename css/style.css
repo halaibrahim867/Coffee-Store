@@ -626,7 +626,7 @@ body {
     font-size: 32px;
     line-height: 48px;
     margin-block-start: 170px;
-    margin-inline-start: 85px;
+    margin-inline-start: 60px;
     width: 414px;
     letter-spacing: 0.04em;
 
@@ -684,12 +684,15 @@ body {
 }
 
 @media (min-width:772px)and (max-width:1024px) {
+  
     .container .feedback {
         display: block;
     }
 
     .container .feedback .people-feedback {
-        margin-inline-start: 135px;
+        margin-inline-start: 40px;
+        margin-block-start: 50px;
+        overflow: visible;
     }
 
 }
